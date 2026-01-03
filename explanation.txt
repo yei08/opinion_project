@@ -1,0 +1,16 @@
+my_flask_app/
+├── app/                      # Where your core logic lives
+│   ├── __init__.py           # Makes 'app' a package and initializes Flask
+│   ├── routes.py             # Your URL patterns (endpoints)
+│   ├── models.py             # Database structures
+│   ├── static/               # CSS, JS, and images
+│   │   └── css/
+│   │       └── style.css
+│   └── templates/            # HTML files
+│       ├── base.html         # Main layout
+│       └── index.html        # Home page
+├── venv/                     # Virtual environment (ignored by Git)
+├── .gitignore                # Files to exclude from Git
+├── config.py                 # Secret keys and DB settings
+├── requirements.txt          # List of dependencies
+└── run.py                    # The entry point to start the server
