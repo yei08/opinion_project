@@ -14,3 +14,8 @@ my_flask_app/
 ├── config.py                 # Secret keys and DB settings
 ├── requirements.txt          # List of dependencies
 └── run.py                    # The entry point to start the server
+
+#esto es una regla:
+Si el código empieza con...,¿Qué es?,¿Dónde va?
+"<meta..., <link..., <img..., <div...",Etiquetas de HTML,Archivo .html
+"body { ... }, .clase { ... }, #id { ... }",Reglas de Estilo,Archivo .css

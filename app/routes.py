@@ -5,3 +5,9 @@ from flask import render_template
 @app.route('/index')
 def index():
     return render_template('index.html', title='Home')
+
+@app.route('/profile')
+def profile_page():
+    return render_template('profile.html')
+
+

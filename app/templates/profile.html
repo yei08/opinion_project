@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - My profile</title>
+<!--     <style>
+        body { font-family: sans-serif; margin: 40px; line-height: 1.6; }
+        nav { margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 10px; }
+    </style> -->
+    <link rel="stylesheet" href="../static/css/style.css">
+     
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a> | <a href="#">About us</a>
+    </nav>
+    <img src="../static/images/estandar_image.jpg" style="max-width:12%;height:auto;">
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
